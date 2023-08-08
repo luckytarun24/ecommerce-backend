@@ -1,0 +1,460 @@
+{
+    "users": [
+      {
+        "_id": "615ff634e4b858a1d8e5c4b5",
+        "email": "user1@example.com",
+        "name": "John Doe",
+        "mobileNo": 1234567890,
+        "password": "password123",
+        "address": [
+          {
+            "country": "USA",
+            "street": "123 Main Street",
+            "city": "New York",
+            "state": "NY",
+            "pincode": "10001"
+          }
+        ]
+      },
+      {
+        "_id": "615ff634e4b858a1d8e5c4b7",
+        "email": "user2@example.com",
+        "name": "Jane Smith",
+        "mobileNo": 9876543210,
+        "password": "abc@123",
+        "address": [
+          {
+            "country": "Canada",
+            "street": "456 Maple Avenue",
+            "city": "Toronto",
+            "state": "ON",
+            "pincode": "M4S 1Y5"
+          },
+          {
+            "country": "United Kingdom",
+            "street": "789 Park Road",
+            "city": "London",
+            "state": "England",
+            "pincode": "SW1A 1AA"
+          }
+        ]
+      },
+      {
+        "_id": "615ff634e4b858a1d8e5c4b6",
+        "email": "tarun@gmail.com",
+        "name": "Jane Doe",
+        "mobileNo": 9876543210,
+        "password": "$2a$10$/Gga2m.ST9Bu8DH4qba0/Osd7vALsoUoDpo4BtNs1Edt4dhb0WtNa",
+        "address": {
+          "country": "USA",
+          "street": "456 Maple Avenue",
+          "city": "New York",
+          "state": "NY",
+          "pincode": "10001"
+        }
+      }
+    ],
+    "product": [
+      {
+        "_id": "61600c61e4b858a1d8e5c4c1",
+        "name": "Men's Polo T-Shirt",
+        "image": "https://images.unsplash.com/photo-1617952125960-38d76f3659d6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "imageList": [
+          "https://images.unsplash.com/photo-1617952125960-38d76f3659d6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "https://images.unsplash.com/photo-1617952125960-38d76f3659d6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "https://images.unsplash.com/photo-1617952125960-38d76f3659d6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "https://images.unsplash.com/photo-1617952125960-38d76f3659d6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        ],
+        "quantity": 100,
+        "price": 29.99,
+        "discount": 10,
+        "description": "A classic men's polo t-shirt.",
+        "category": "men",
+        "subTitle": "Summer Collection"
+      },
+      {
+        "_id": "61600c61e4b858a1d8e5c4c2",
+        "name": "Women's Floral Dress",
+        "image": "https://images.unsplash.com/photo-1583397758920-86c1cb75b8fe?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "imageList": [
+          "https://images.unsplash.com/photo-1583397758920-86c1cb75b8fe?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "https://images.unsplash.com/photo-1583397758920-86c1cb75b8fe?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "https://images.unsplash.com/photo-1583397758920-86c1cb75b8fe?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "https://images.unsplash.com/photo-1583397758920-86c1cb75b8fe?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        ],
+        "quantity": 50,
+        "price": 49.99,
+        "discount": 15,
+        "description": "A beautiful floral dress for women.",
+        "category": "women",
+        "subTitle": "Party Wear"
+      },
+      {
+        "_id": "61600c61e4b858a1d8e5c4c3",
+        "name": "Kid's Cartoon T-Shirt",
+        "image": "https://images.unsplash.com/photo-1543854704-2b1b011701e6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "imageList": [
+          "https://images.unsplash.com/photo-1543854704-2b1b011701e6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "https://images.unsplash.com/photo-1543854704-2b1b011701e6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "https://images.unsplash.com/photo-1543854704-2b1b011701e6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "https://images.unsplash.com/photo-1543854704-2b1b011701e6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        ],
+        "quantity": 80,
+        "price": 24.99,
+        "discount": 5,
+        "description": "Colorful and fun cartoon t-shirts for kids.",
+        "category": "kid",
+        "subTitle": "Back to School"
+      },
+      {
+        "_id": "61600c61e4b858a1d8e5c4c6",
+        "name": "Men's Casual Shirt",
+        "image": "https://images.unsplash.com/photo-1624029769501-5a6cfec0d9e0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "imageList": [
+          "https://images.unsplash.com/photo-1624029769501-5a6cfec0d9e0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "https://images.unsplash.com/photo-1624029769501-5a6cfec0d9e0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "https://images.unsplash.com/photo-1624029769501-5a6cfec0d9e0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "https://images.unsplash.com/photo-1624029769501-5a6cfec0d9e0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        ],
+        "quantity": 60,
+        "price": 39.99,
+        "discount": 20,
+        "description": "Stylish and comfortable men's casual shirt.",
+        "category": "men",
+        "subTitle": "Casual Wear"
+      },
+      {
+        "_id": "61600c61e4b858a1d8e5c4c7",
+        "name": "Women's Maxi Dress",
+        "image": "https://images.unsplash.com/photo-1584273143981-41c073dfe8f8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format",
+        "imageList": [
+          "https://images.unsplash.com/photo-1584273143981-41c073dfe8f8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format",
+          "https://images.unsplash.com/photo-1584273143981-41c073dfe8f8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format",
+          "https://images.unsplash.com/photo-1584273143981-41c073dfe8f8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format",
+          "https://images.unsplash.com/photo-1584273143981-41c073dfe8f8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format"
+        ],
+        "quantity": 30,
+        "price": 54.99,
+        "discount": 10,
+        "description": "Elegant and trendy women's maxi dress.",
+        "category": "women",
+        "subTitle": "Evening Wear"
+      },
+      {
+        "_id": "61600c61e4b858a1d8e5c4c8",
+        "name": "Kid's Denim Jeans",
+        "image": "https://images.unsplash.com/photo-1530845645774-eed359045642?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "imageList": [
+          "https://images.unsplash.com/photo-1530845645774-eed359045642?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "https://images.unsplash.com/photo-1530845645774-eed359045642?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "https://images.unsplash.com/photo-1530845645774-eed359045642?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "https://images.unsplash.com/photo-1530845645774-eed359045642?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        ],
+        "quantity": 70,
+        "price": 29.99,
+        "discount": 0,
+        "description": "Classic denim jeans for kids.",
+        "category": "kid",
+        "subTitle": "Everyday Wear"
+      },
+      {
+        "_id": "61600c61e4b858a1d8e5c4c9",
+        "name": "Men's Checkered Shirt",
+        "image": "https://images.unsplash.com/photo-1619208382871-96f4d45bc840?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "imageList": [
+          "https://images.unsplash.com/photo-1619208382871-96f4d45bc840?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "https://images.unsplash.com/photo-1619208382871-96f4d45bc840?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "https://images.unsplash.com/photo-1619208382871-96f4d45bc840?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "https://images.unsplash.com/photo-1619208382871-96f4d45bc840?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        ],
+        "quantity": 90,
+        "price": 35.99,
+        "discount": 12,
+        "description": "Trendy men's checkered shirt.",
+        "category": "men",
+        "subTitle": "Street Style"
+      },
+      {
+        "_id": "61600c61e4b858a1d8e5c4c4",
+        "name": "Women's Lace Top",
+        "image": "https://images.unsplash.com/photo-1571908599407-cdb918ed83bf?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "imageList": [
+          "https://images.unsplash.com/photo-1571908599407-cdb918ed83bf?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "https://images.unsplash.com/photo-1571908599407-cdb918ed83bf?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "https://images.unsplash.com/photo-1571908599407-cdb918ed83bf?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "https://images.unsplash.com/photo-1571908599407-cdb918ed83bf?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        ],
+        "quantity": 40,
+        "price": 24.99,
+        "discount": 5,
+        "description": "Chic and feminine lace top for women.",
+        "category": "women",
+        "subTitle": "Casual Chic"
+      },
+      {
+        "_id": "61600c61e4b858a1d8e5c4c5",
+        "name": "Kid's Sports T-Shirt",
+        "image": "https://images.unsplash.com/photo-1502451885777-16c98b07834a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "imageList": [
+          "https://images.unsplash.com/photo-1502451885777-16c98b07834a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "https://images.unsplash.com/photo-1502451885777-16c98b07834a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "https://images.unsplash.com/photo-1502451885777-16c98b07834a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "https://images.unsplash.com/photo-1502451885777-16c98b07834a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        ],
+        "quantity": 60,
+        "price": 19.99,
+        "discount": 8,
+        "description": "Comfortable and active sports t-shirts for kids.",
+        "category": "kid",
+        "subTitle": "Active Wear"
+      },
+      {
+        "name": "Men's Leather Jacket",
+        "image": "https://images.unsplash.com/photo-1580551881592-a5c0f309e91f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "imageList": [
+          "https://images.unsplash.com/photo-1580551881592-a5c0f309e91f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "https://images.unsplash.com/photo-1580551881592-a5c0f309e91f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "https://images.unsplash.com/photo-1580551881592-a5c0f309e91f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "https://images.unsplash.com/photo-1580551881592-a5c0f309e91f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        ],
+        "quantity": 20,
+        "price": 89.99,
+        "discount": 15,
+        "description": "Stylish and durable men's leather jacket.",
+        "category": "men",
+        "subTitle": "Winter Collection"
+      },
+      {
+        "name": "Men's Hoodie",
+        "image": "https://images.unsplash.com/photo-1503341504253-dff4815485f1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "imageList": [
+          "https://images.unsplash.com/photo-1503341504253-dff4815485f1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "https://images.unsplash.com/photo-1503341504253-dff4815485f1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "https://images.unsplash.com/photo-1503341504253-dff4815485f1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "https://images.unsplash.com/photo-1503341504253-dff4815485f1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        ],
+        "quantity": 80,
+        "price": 39.99,
+        "discount": 10,
+        "description": "Warm and comfortable men's hoodie.",
+        "category": "men",
+        "subTitle": "Winter Collection"
+      },
+      {
+        "name": "Women's Blouse",
+        "image": "https://images.unsplash.com/photo-1541216970279-affbfdd55aa8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "imageList": [
+          "https://images.unsplash.com/photo-1541216970279-affbfdd55aa8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "https://images.unsplash.com/photo-1541216970279-affbfdd55aa8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "https://images.unsplash.com/photo-1541216970279-affbfdd55aa8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "https://images.unsplash.com/photo-1541216970279-affbfdd55aa8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        ],
+        "quantity": 70,
+        "price": 34.99,
+        "discount": 5,
+        "description": "Elegant and stylish women's blouse.",
+        "category": "women",
+        "subTitle": "Formal Wear"
+      },
+      {
+        "name": "Kid's Party Dress",
+        "image": "https://images.unsplash.com/photo-1609347993146-2a0638758bcc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "imageList": [
+          "https://images.unsplash.com/photo-1609347993146-2a0638758bcc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "https://images.unsplash.com/photo-1609347993146-2a0638758bcc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "https://images.unsplash.com/photo-1609347993146-2a0638758bcc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "https://images.unsplash.com/photo-1609347993146-2a0638758bcc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        ],
+        "quantity": 40,
+        "price": 59.99,
+        "discount": 15,
+        "description": "A pretty party dress for kids.",
+        "category": "kid",
+        "subTitle": "Party Collection"
+      },
+      {
+        "name": "Men's Cargo Shorts",
+        "image": "https://images.unsplash.com/photo-1593757147298-e064ed1419e5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "imageList": [
+          "https://images.unsplash.com/photo-1593757147298-e064ed1419e5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "https://images.unsplash.com/photo-1593757147298-e064ed1419e5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "https://images.unsplash.com/photo-1593757147298-e064ed1419e5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "https://images.unsplash.com/photo-1593757147298-e064ed1419e5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        ],
+        "quantity": 50,
+        "price": 24.99,
+        "discount": 0,
+        "description": "Casual and practical men's cargo shorts.",
+        "category": "men",
+        "subTitle": "Summer Essentials"
+      },
+      {
+        "name": "Women's Office Skirt",
+        "image": "https://images.unsplash.com/photo-1604874414535-bf26a2ca4bf7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "imageList": [
+          "https://images.unsplash.com/photo-1604874414535-bf26a2ca4bf7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "https://images.unsplash.com/photo-1604874414535-bf26a2ca4bf7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "https://images.unsplash.com/photo-1604874414535-bf26a2ca4bf7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "https://images.unsplash.com/photo-1604874414535-bf26a2ca4bf7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        ],
+        "quantity": 60,
+        "price": 29.99,
+        "discount": 10,
+        "description": "Smart and stylish office skirt for women.",
+        "category": "women",
+        "subTitle": "Workwear"
+      },
+      {
+        "name": "Kid's Pajama Set",
+        "image": "https://images.unsplash.com/photo-1613046353489-8846ffcdebcb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "imageList": [
+          "https://images.unsplash.com/photo-1613046353489-8846ffcdebcb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "https://images.unsplash.com/photo-1613046353489-8846ffcdebcb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "https://images.unsplash.com/photo-1613046353489-8846ffcdebcb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "https://images.unsplash.com/photo-1613046353489-8846ffcdebcb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        ],
+        "quantity": 90,
+        "price": 19.99,
+        "discount": 8,
+        "description": "Comfortable and cute pajama sets for kids.",
+        "category": "kid",
+        "subTitle": "Bedtime Wear"
+      },
+      {
+        "name": "Men's Denim Jacket",
+        "image": "https://images.unsplash.com/photo-1563389234808-52344934935c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "imageList": [
+          "https://images.unsplash.com/photo-1563389234808-52344934935c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "https://images.unsplash.com/photo-1563389234808-52344934935c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "https://images.unsplash.com/photo-1563389234808-52344934935c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "https://images.unsplash.com/photo-1563389234808-52344934935c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        ],
+        "quantity": 30,
+        "price": 64.99,
+        "discount": 20,
+        "description": "Fashionable men's denim jacket.",
+        "category": "men",
+        "subTitle": "Street Style"
+      },
+      {
+        "name": "Women's Knit Sweater",
+        "image": "https://images.unsplash.com/photo-1614940685083-c5409b57da6e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "imageList": [
+          "https://images.unsplash.com/photo-1614940685083-c5409b57da6e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "https://images.unsplash.com/photo-1614940685083-c5409b57da6e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "https://images.unsplash.com/photo-1614940685083-c5409b57da6e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "https://images.unsplash.com/photo-1614940685083-c5409b57da6e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        ],
+        "quantity": 25,
+        "price": 44.99,
+        "discount": 5,
+        "description": "Cozy and warm women's knit sweater.",
+        "category": "women",
+        "subTitle": "Winter Fashion"
+      },
+      {
+        "name": "Kid's Raincoat",
+        "image": "https://images.unsplash.com/photo-1555009393-39be6ef89604?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "imageList": [
+          "https://images.unsplash.com/photo-1555009393-39be6ef89604?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "https://images.unsplash.com/photo-1555009393-39be6ef89604?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "https://images.unsplash.com/photo-1555009393-39be6ef89604?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "https://images.unsplash.com/photo-1555009393-39be6ef89604?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        ],
+        "quantity": 35,
+        "price": 34.99,
+        "discount": 12,
+        "description": "Waterproof and cute raincoat for kids.",
+        "category": "kid",
+        "subTitle": "Rainy Days"
+      },
+      {
+        "name": "Men's Formal Suit",
+        "image": "https://images.unsplash.com/photo-1604695573706-53170668f6a6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "imageList": [
+          "https://images.unsplash.com/photo-1604695573706-53170668f6a6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "https://images.unsplash.com/photo-1604695573706-53170668f6a6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "https://images.unsplash.com/photo-1604695573706-53170668f6a6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "https://images.unsplash.com/photo-1604695573706-53170668f6a6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        ],
+        "quantity": 15,
+        "price": 149.99,
+        "discount": 15,
+        "description": "Elegant and dashing men's formal suit.",
+        "category": "men",
+        "subTitle": "Special Occasions"
+      }
+    ],
+    "carts": [
+      {
+        "userId": "615ff634e4b858a1d8e5c4b5",
+        "productIds": [
+          "61600c61e4b858a1d8e5c4c1",
+          "61600c61e4b858a1d8e5c4c2",
+          "61600c61e4b858a1d8e5c4c3"
+        ]
+      },
+      {
+        "userId": "615ff634e4b858a1d8e5c4b6",
+        "productIds": ["61600c61e4b858a1d8e5c4c4", "61600c61e4b858a1d8e5c4c5"]
+      },
+      {
+        "userId": "615ff634e4b858a1d8e5c4b7",
+        "productIds": [
+          "61600c61e4b858a1d8e5c4c6",
+          "61600c61e4b858a1d8e5c4c7",
+          "61600c61e4b858a1d8e5c4c8",
+          "61600c61e4b858a1d8e5c4c9"
+        ]
+      }
+    ],
+    "order": [
+      {
+        "userId": "615ff634e4b858a1d8e5c4b5",
+        "paymentMode": "upi",
+        "productsId": ["61600c61e4b858a1d8e5c4c1", "61600c61e4b858a1d8e5c4c2"],
+        "dateOfDelivery": "2023-08-10T12:00:00.000Z",
+        "address": {
+          "country": "USA",
+          "street": "456 Maple Avenue",
+          "city": "New York",
+          "state": "NY",
+          "pincode": "10001"
+        },
+        "status": "YET_TO_SHIP"
+      },
+      {
+        "userId": "615ff634e4b858a1d8e5c4b6",
+        "paymentMode": "cod",
+        "productsId": ["61600c61e4b858a1d8e5c4c3", "61600c61e4b858a1d8e5c4c4"],
+        "dateOfDelivery": "2023-08-12T12:00:00.000Z",
+        "address": {
+          "country": "Canada",
+          "street": "789 Park Road",
+          "city": "Toronto",
+          "state": "ON",
+          "pincode": "M4S 1Y5"
+        },
+        "status": "SHIPPED"
+      },
+      {
+        "userId": "615ff634e4b858a1d8e5c4b7",
+        "paymentMode": "credit",
+        "productsId": [
+          "61600c61e4b858a1d8e5c4c5",
+          "61600c61e4b858a1d8e5c4c6",
+          "61600c61e4b858a1d8e5c4c7"
+        ],
+        "dateOfDelivery": "2023-08-15T12:00:00.000Z",
+        "address": {
+          "country": "United Kingdom",
+          "street": "123 Baker Street",
+          "city": "London",
+          "state": "England",
+          "pincode": "NW1 6XE"
+        },
+        "status": "DELIVERED"
+      }
+    ]
+  }
+  
